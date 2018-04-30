@@ -1,6 +1,8 @@
+ <% include partials/header %> <!-- pulls the header.ejs content -->
+ 
  <h1>This is the campgrounds page</h1>
  
- loops through campgrounds variable passed from apps.js
+<!--loops through campgrounds variable passed from apps.js-->
  
  <% campgrounds.forEach(function(campground){ %>
     <div>
@@ -9,4 +11,6 @@
     </div>
     
  <% }); %>
+ 
+<% include partials/footer %> <!-- pulls the footer.ejs content -->
  
