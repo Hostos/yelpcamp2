@@ -1,0 +1,12 @@
+ <h1>This is the campgrounds page</h1>
+ 
+ loops through campgrounds variable passed from apps.js
+ 
+ <% campgrounds.forEach(function(campground){ %>
+    <div>
+        <h4><%= campground.name %></h4>
+        <img src="<%=campground.image%>">
+    </div>
+    
+ <% }); %>
+ 
